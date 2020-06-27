@@ -1,0 +1,98 @@
+body{
+    background-image: url('../Images/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    text-align: center;
+}
+
+.calculator{
+    background-color: rgb(27, 29, 27);
+    width: 280px;
+    height: auto;
+    padding: 3px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.textArea{
+    width: 263px;
+    height: 65px;
+    font-size: 35px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    padding: 5px;
+    text-align: right;
+    margin: 3px 0 5px 0;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.input, .operator, .equal{
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 550;
+    border: none;
+    border-width: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.equal{
+    height: 133px;
+    background-color: rgb(111, 177, 103);
+}
+.input{
+    background-color: white;
+}
+.operator{
+    background-color: rgb(197, 199, 201);
+}
+.cancel{
+    background-color: rgb(252, 64, 64);
+}
+
+.input:focus, .operator:focus, .equal:focus{
+    outline: 0;
+}
+.equal:active{
+    font-size: 20px;
+    background-color: rgb(12, 138, 12);
+}
+.input:active{
+    font-size: 20px;
+    background-color: rgb(192, 187, 187);
+}
+.operator:active{
+    font-size: 20px;
+    background-color: rgb(145, 141, 141);
+}
+.cancel:active{
+    background-color: red;
+}
+
+.next{
+    margin-top: 15px;
+}
+.next .button{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.button:focus{
+    outline: none;
+}
+.button:hover{
+    background-color: rgb(6, 88, 6);
+}
+.button:active{
+    background-color: rgb(8, 117, 8);
+    font-size: 18px;
+}

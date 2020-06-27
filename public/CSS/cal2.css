@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    background-image: url('../Images/2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;  
+  text-align: center;  
+}
+.calculator{
+    width: 299px;
+    height: auto;
+    background-color: rgb(235, 229, 229);
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.result{
+    height: 100px;
+    margin: 0;
+    /* padding: 10px 10px 5px 10px; */
+}
+.history{
+    /* background-color: green; */
+    text-align: right;
+    height: 15px;
+    margin: 20px 10px 0 0;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #525050;
+}
+.output{
+    /* background-color: hotpink; */
+    text-align: right;
+    /* height: 60px; */
+    margin:20px 10px; 
+    font-size: 40px;
+    font-weight: bold;
+}
+.operator, .number, .button{
+    width: 70px;
+    height: 60px;
+    margin: 0;
+    /* float: left; */
+    /* border-radius: 50%; */
+    border: none;
+    border-width: 0;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: white;
+}
+.operator{
+    font-weight: normal;
+    background-color: rgb(201, 201, 199);
+}
+#output-value{
+    margin: 0;
+}
+.operator:focus, .number:focus, .button:focus{
+    outline: 0;
+}
+.number:active{
+    font-size: 13px;
+    background-color: rgb(226, 248, 226);
+} 
+.operator:active{
+    font-size: 13px;
+    background-color: rgb(109, 133, 133);
+}
+.button{
+    background-color: rgb(72, 146, 241); width: 144px;
+}
+.button:active{
+    background-color: rgb(63, 113, 248);
+}
+
+.pre-next{
+    margin-top: 15px;
+}
+.button-pre, .button-next{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.button-pre{
+    background-color: rgb(199, 53, 53);
+}
+.button-next{
+    background-color: green;
+}
+.button-next:focus, .button-pre:focus{
+    outline: none;
+}
+.button-next:hover{
+    background-color: rgb(6, 88, 6);
+}
+.button-pre:hover{
+    background-color: rgb(179, 6, 6);
+}
+.button-next:active{
+    background-color: rgb(8, 117, 8);
+    font-size: 18px;
+}
+.button-pre:active{
+    background-color: rgb(211, 49, 49);
+    font-size: 18px;
+}
